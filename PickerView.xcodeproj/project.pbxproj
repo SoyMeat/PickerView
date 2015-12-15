@@ -13,6 +13,8 @@
 		39C9206A1C1EA04100E5A05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C920681C1EA04100E5A05B /* Main.storyboard */; };
 		39C9206C1C1EA04100E5A05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C9206B1C1EA04100E5A05B /* Assets.xcassets */; };
 		39C9206F1C1EA04100E5A05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C9206D1C1EA04100E5A05B /* LaunchScreen.storyboard */; };
+		39C9207B1C1EA87100E5A05B /* BzwPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C9207A1C1EA87100E5A05B /* BzwPicker.m */; };
+		39C9207D1C1EBE9900E5A05B /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C9207C1C1EBE9900E5A05B /* Address.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		39C9206B1C1EA04100E5A05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C9206E1C1EA04100E5A05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C920701C1EA04100E5A05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C920791C1EA87100E5A05B /* BzwPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BzwPicker.h; sourceTree = "<group>"; };
+		39C9207A1C1EA87100E5A05B /* BzwPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BzwPicker.m; sourceTree = "<group>"; };
+		39C9207C1C1EBE9900E5A05B /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +67,12 @@
 				39C920631C1EA04100E5A05B /* AppDelegate.m */,
 				39C920651C1EA04100E5A05B /* ViewController.h */,
 				39C920661C1EA04100E5A05B /* ViewController.m */,
+				39C920791C1EA87100E5A05B /* BzwPicker.h */,
+				39C9207A1C1EA87100E5A05B /* BzwPicker.m */,
 				39C920681C1EA04100E5A05B /* Main.storyboard */,
 				39C9206B1C1EA04100E5A05B /* Assets.xcassets */,
 				39C9206D1C1EA04100E5A05B /* LaunchScreen.storyboard */,
+				39C9207C1C1EBE9900E5A05B /* Address.plist */,
 				39C920701C1EA04100E5A05B /* Info.plist */,
 				39C9205F1C1EA04100E5A05B /* Supporting Files */,
 			);
@@ -137,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C9206F1C1EA04100E5A05B /* LaunchScreen.storyboard in Resources */,
+				39C9207D1C1EBE9900E5A05B /* Address.plist in Resources */,
 				39C9206C1C1EA04100E5A05B /* Assets.xcassets in Resources */,
 				39C9206A1C1EA04100E5A05B /* Main.storyboard in Resources */,
 			);
@@ -152,6 +161,7 @@
 				39C920671C1EA04100E5A05B /* ViewController.m in Sources */,
 				39C920641C1EA04100E5A05B /* AppDelegate.m in Sources */,
 				39C920611C1EA04100E5A05B /* main.m in Sources */,
+				39C9207B1C1EA87100E5A05B /* BzwPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
