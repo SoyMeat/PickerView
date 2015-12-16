@@ -48,7 +48,7 @@
         [pick setFrame:CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, 250)];
     }];
 }
-
+//取消
 -(void)cacleBtn
 {
     [UIView animateWithDuration:.5f animations:^{
@@ -56,6 +56,7 @@
         [pick setFrame:CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, 250)];
     }];
 }
+//暂时没做其他操作   仅仅是取消
 -(void)okBtn
 {
     [UIView animateWithDuration:.5f animations:^{
